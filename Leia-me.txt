@@ -1,0 +1,12 @@
+﻿Procedimentos para Instalação
+
+*copiar os 
+	arquivos para a uma pasta htdocs dentro do xampp, e execultar o index.php
+
+*As senhas ainda não estão cadastradas, basta clicar em ENTRAR,
+	e escolher o Menu de seu interesse.
+
+
+*Equipe:
+
+	Macelo Jose da Silva

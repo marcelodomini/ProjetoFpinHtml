@@ -1,0 +1,211 @@
+
+body {
+	font-family:arial;
+	font-weight:lighter;
+//	color:white;
+//	background-color:#000000;
+	background-image: url('imagens/fundo5.jpg');
+//	background-repeat: no-repeat;
+//	background-position: right top;
+//	background-repeat: repeat-x;
+	background-attachment:fixed;
+}
+
+header {
+//    background-color:black;
+    color:white;
+    text-align:center;
+    padding:5px;
+	height:1.5in;
+//	border:1px solid;
+	border-color:black;
+}
+
+nav {
+    line-height:30px;
+//    background-color:#eeeeee;
+    height:300px;
+    width:100px;
+    float:left;
+    padding:10px;
+//	border:1px solid;
+	border-color:black;
+}
+
+section {
+    height:250px;
+//    width:200px;
+    padding:10px;
+//	border:1px solid;
+	border-color:black;
+	margin:10px;
+}
+
+footer {
+//    background-color:black;
+//    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+	margin:10px;
+//	border:1px solid;
+	border-color:black;	
+}
+
+h1 {
+	color:white;
+	font-family:arial;
+	text-align:center;
+	text-shadow: 2px 2px 8px #000000;
+	}
+
+h2 {
+	color:white;
+	font-family:arial;
+	text-align:center
+	}
+
+h1.titulo {
+	color:white;
+	font-family:arial;
+	text-align:center;
+	text-shadow: 2px 2px 8px #ffffff;
+	}
+	
+div.titulo1 {
+	color:white;
+	font-family:arial;
+	font-size:30px;
+	text-align:center;
+	text-shadow: 2px 2px 8px #ffffff;
+	}
+	
+div.titulo2 {
+	margin:10px;
+    padding:5px;
+	text-align:right;
+	font-size:15px;
+	background-color:#4a708b;
+}
+
+div.titulo3 {
+	margin:10px;
+    padding:5px;
+//	border:1px solid;
+	border-color:black;
+//	text-align:right;
+//	font-size:15px;
+	background-color:#4a708b;
+}
+
+div.header {
+//    background-color:black;
+//    color:white;
+//    text-align:right;
+    padding:50px;
+//	border:1px solid;
+	border-color:black;
+	margin:10px;
+	}
+	
+div.menu {
+	margin:20px;
+    padding:20px;
+//	background-color:#f0f0f0;
+}
+
+div.corpo{
+	margin:20px;
+	Padding:180px;
+//	border:0.02in solid;
+	border-color:red;
+//	background-color:#f0f0f0;
+}
+
+div.tabela{
+	margin:20px;
+	border:0.02in solid;
+    padding:20px;
+	background-color:#9ACD32;
+
+}
+
+div.botao{
+	margin:10px;
+    padding:5px;
+	width:2.5in;
+	background-color:#4a708b;
+}
+
+div.tabelaLogin{
+	
+	margin:30px;
+	border:0.02in solid;
+    padding:20px;
+//	width:5in;
+	background-color:#9ACD32;
+
+}
+	
+	
+//BOTOES
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color :#4a708b;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+// FINAL BOTOES
+
+
+.button {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  color: #344704;
+  display: block;
+  float: left;
+  height: 29px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 12px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;
+}

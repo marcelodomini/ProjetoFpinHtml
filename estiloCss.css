@@ -1,0 +1,186 @@
+
+
+h1 {
+	color:white;
+	font-family:arial;
+	text-align:center;
+	text-shadow: 2px 2px 8px #000000;
+	}
+
+h2 {
+	color:white;
+	font-family:arial;
+	text-align:center
+	}
+
+/*h2 {
+	color:red;
+	font-family:arial;
+	text-align:center
+	}*/
+
+/*p {
+	color:blue;
+	font-family:arial
+	}*/
+
+p.1 {color:white;
+	font-family:arial;
+	font-size:20px
+	}
+
+.center {
+	text-align:center;
+	color: red
+	}
+
+body {
+	font-family:arial;
+	color:white;
+//	background-color:black;
+	background-image: url('imagens/fundo.jpg');
+//	background-repeat: no-repeat;
+//	background-position: right top;
+//	background-repeat: repeat-x;
+	background-attachment:fixed;
+}
+
+a{
+	color:white;
+}
+
+
+div.titulo1 {
+//	margin:20px;
+	margin-top:20px;
+    padding:15px;
+	background-color:#9ACD32;
+}
+
+div.titulo2 {
+//	margin:20px;
+    padding:1px;
+	text-align:right;
+	font-size:15px;
+	background-color:#4a708b;
+}
+
+div.menu {
+	margin:20px;
+    padding:20px;
+//	background-color:#f0f0f0;
+}
+
+div.corpo{
+	margin:20px;
+	Padding:180px;
+//	border:0.02in solid;
+	border-color:red;
+//	background-color:#f0f0f0;
+}
+
+div.tabela{
+	margin:20px;
+	border:0.02in solid;
+    padding:20px;
+	background-color:#9ACD32;
+
+}
+
+div.botao{
+	margin:10px;
+    padding:5px;
+	width:2.5in;
+	background-color:#4a708b;
+}
+
+div.tabelaLogin{
+	
+	margin:30px;
+	border:0.02in solid;
+    padding:20px;
+//	width:5in;
+	background-color:#9ACD32;
+
+}
+
+div.footer{
+	margin:20px;
+    padding:20px;
+//	background-color:#f0f0f0;
+}
+
+#prel {
+	Padding:0.40in;
+	border:0.02in solid;
+	border-color:red;
+	margin:0.20in;
+	background-color:#f0f0f0;
+	position:relative;
+	top:0px;
+	left:0px;
+}
+
+
+//BOTOES
+* {
+    box-sizing: border-box;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color :#9ACD32;
+    color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+
+// FINAL BOTOES
+
+
+.button {
+  margin: 0px;
+  padding: 0px !important;
+  border: 0px;
+  color: #344704;
+  display: block;
+  float: left;
+  height: 29px;
+  margin-right: 6px;
+  margin-top:10px;
+  padding-right: 12px !important;
+  text-decoration: none;
+  overflow: hidden;
+  font-size: 12px;
+  outline: none !important;
+  cursor: pointer;
+  font-weight: bold;
+}
+
